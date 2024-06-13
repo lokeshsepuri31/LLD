@@ -12,6 +12,7 @@ public class Main {
 		Student student1 = (Student) student.clone();
 		
 		System.out.println("My name is: "+ student1.getName() +" and My age is: "+student1.getAge());
+		System.out.println(student.equals(student1));
 		
 	}
 }
